@@ -32,6 +32,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# scratch / fix scripts
+fix_*.cjs
+extract*.cjs
+dedupe.cjs
+.turbo/
 
 # vercel
 .vercel
